@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+  int x,y;
+  printf("Enter the number x and y");
+  scanf("%d%d",&x,&y);
+  x=x+y;
+  y=x-y;
+  x=x-y;
+  printf("After Swapping Number x = %d and Number y= %d",x,y);
+}
